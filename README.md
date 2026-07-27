@@ -54,7 +54,7 @@ metodos-cuantitativos-dti/
 ├── 01-momento1-aplicacion-creacion/            → Momento 1 (60%)
 │   ├── ciclo-1-lectura-critica/                → Fase 1 · Semanas 1–4 · 100 pts
 │   │   ├── lecturas/                            → Wohlin cap. 1–2 y complementarias
-│   │   ├── banco-articulos/                     → 8 artículos (2 por línea DTI)
+│   │   ├── banco-articulos/                     → 5 artículos (al menos por línea DTI)
 │   │   ├── articulo-modelo-webconferencia/      → artículo que el tutor analiza en vivo (Sem. 2)
 │   │   └── plantillas/                          → análisis metodológico (8 operaciones) · potencia · rúbrica
 │   └── ciclo-2-analisis-integral/              → Fase 2 · Semanas 5–12 · 200 pts
