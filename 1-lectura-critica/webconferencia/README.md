@@ -15,7 +15,7 @@ using PLS-SEM and fsQCA.* PLOS ONE, 18(9), e0291870.
 [https://doi.org/10.1371/journal.pone.0291870](https://doi.org/10.1371/journal.pone.0291870)
 
 - **Acceso:** Open Access — **Creative Commons Attribution (CC BY)**. Por eso el PDF **sí** puede incluirse en este repositorio (a diferencia del banco, cuyos artículos son de acceso restringido y se enlazan por DOI).
-- **Archivo:** coloca aquí el PDF como `Chen-Ye-2023-smart-clothing-PLS-SEM-fsQCA.pdf`.
+- **Archivo:**  `Chen-Ye-2023-smart-clothing-PLS-SEM-fsQCA.pdf`.
 - **Diseño en breve:** encuesta transversal correlacional · n = 225 consumidores chinos · muestreo bola de nieve (WeChat) · 7 constructos latentes (FUN, EXP, AES, PU, PEOU, ATT, PI) en Likert 5 · PLS-SEM (SmartPLS 3.0) + fsQCA 3.0 · aprobación IRB (Jiaxing University).
 
 ## Por qué este artículo
