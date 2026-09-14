@@ -10,7 +10,7 @@ webconferencia de retroalimentación (Semana 8).
 > **¿Qué explica las diferencias entre poblaciones en su conocimiento, percepción y
 > comportamiento de seguridad digital, y qué tan grandes son esas diferencias?**
 
-El dataset captura, para ~12.000 personas de 12 países, tres dimensiones del factor humano en
+El dataset captura, para 12.351 personas de 12 países, tres dimensiones del factor humano en
 ciberseguridad: **lo que saben** (familiaridad con términos y (mis)concepciones técnicas),
 **lo que sienten** (importancia, preocupación, actitudes, riesgo percibido) y **lo que hacen**
 (medidas de protección adoptadas, experiencias de victimización). La pregunta rectora invita a
@@ -31,20 +31,20 @@ línea CRIC del DTI.
 Sirven como punto de partida; puedes formular las tuyas a partir de la exploración. **No** son
 un método asignado.
 
-- **Brecha conocimiento–comportamiento.** ¿Saber más de seguridad (Q6) se traduce en más medidas de protección (Q20)? ¿O existe una brecha entre lo que la gente sabe y lo que hace?
-- **La "paradoja de la privacidad".** ¿Quienes declaran más preocupación (Q18) o más importancia de proteger sus datos (Q21) adoptan efectivamente más protecciones (Q20)?
+- **Brecha conocimiento–comportamiento.** ¿Saber más de seguridad (`q6`) se traduce en más medidas de protección (`q20`)? ¿O existe una brecha entre lo que la gente sabe y lo que hace?
+- **La "paradoja de la privacidad".** ¿Quienes declaran más preocupación (`q18`) o más importancia de proteger sus datos (`q21`) adoptan efectivamente más protecciones (`q20`)?
 - **Diferencias culturales (WEIRD vs. no-WEIRD).** ¿Difieren las percepciones de riesgo, las (mis)concepciones o las prácticas entre países occidentales y no occidentales? ¿Qué magnitud tienen esas diferencias?
-- **Predictores de victimización.** ¿Qué factores (conocimiento, comportamiento, demografía, uso de internet) se asocian con haber sido víctima de cibercrimen (Q7)?
-- **Estructura latente de las actitudes.** ¿Las baterías de actitud (Q19) y (mis)concepción (Q9–Q16) se agrupan en dimensiones interpretables? ¿Predicen el comportamiento?
-- **Perfil del riesgo percibido.** ¿A qué actores (Q22) se teme más y cómo se relaciona eso con la experiencia real de victimización (Q7)?
+- **Predictores de victimización.** ¿Qué factores (conocimiento, comportamiento, demografía, uso de internet) se asocian con haber sido víctima de cibercrimen (`q7`)?
+- **Estructura latente de las actitudes.** ¿Las baterías de actitud (`q19`) y (mis)concepción (`q9`–`q16`) se agrupan en dimensiones interpretables? ¿Predicen el comportamiento?
+- **Perfil del riesgo percibido.** ¿A qué actores (`q22`) se teme más y cómo se relaciona eso con la experiencia real de victimización (`q7`)?
 
 ## Orientación metodológica doctoral (transversal a todas las líneas)
 
 Estas indicaciones aplican **cualquiera** sea la técnica que elijas:
 
-1. **Tamaños del efecto e intervalos de confianza son la información primaria; el valor p es secundario.** Con n ≈ 12.000, casi cualquier prueba resultará "estadísticamente significativa". La pregunta doctoral **no** es "¿hay diferencia?" (casi siempre la habrá), sino **"¿de qué tamaño es la diferencia y es sustantivamente relevante?"**. Reporta d de Cohen, η², odds ratios o R² con su intervalo de confianza, e interpreta su magnitud (Cohen, 1988). *Esta es la lección central del entorno* — la misma que ilustró el cuasi-experimento de phishing del Ciclo 1 (efecto significativo pero η² ≈ 0.002, trivial).
+1. **Tamaños del efecto e intervalos de confianza son la información primaria; el valor p es secundario.** Con n = 12.351, casi cualquier prueba resultará "estadísticamente significativa". La pregunta doctoral **no** es "¿hay diferencia?" (casi siempre la habrá), sino **"¿de qué tamaño es la diferencia y es sustantivamente relevante?"**. Reporta d de Cohen, η², odds ratios o R² con su intervalo de confianza, e interpreta su magnitud (Cohen, 1988). *Esta es la lección central del entorno* — la misma que ilustró el cuasi-experimento de phishing del Ciclo 1 (efecto significativo pero η² ≈ 0.002, trivial).
 2. **Justifica el tratamiento de las escalas.** Decide y argumenta si tratas los ítems Likert como intervalares (paramétrico) u ordinales (no paramétrico), y verifica los supuestos antes de cada prueba.
-3. **Documenta la limpieza.** Conversión de `9999` a faltante, decisión sobre la pregunta de control `Q13r11`, inversión de ítems *misconception*, y tratamiento de `Ethnicity` (solo EE. UU.). Un análisis exploratorio deficiente compromete todo lo que viene después.
+3. **Documenta la limpieza.** El faltante viene como celda vacía (NaN), no como `9999`; decide cómo tratarlo (exclusión por listas, imputación) y justifícalo. Atiende también la pregunta de control `q13r11`, la inversión de ítems *misconception*, la celda de texto en `q4r8` y el tratamiento de `Ethnicity` (solo EE. UU.). Un análisis exploratorio deficiente compromete todo lo que viene después.
 4. **Interpreta en el contexto del problema, no solo en el estadístico.** No basta con "se rechaza H₀": explica qué significa el hallazgo para la seguridad digital de las poblaciones estudiadas.
 5. **Reconoce las limitaciones de la muestra.** Las cuotas de representatividad no se alcanzaron plenamente en todos los países (ver README). Declara esta limitación cuando generalices tus hallazgos.
 
